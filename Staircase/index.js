@@ -4,4 +4,11 @@ function staircase(n) {
     }
 }
 
-staircase(5);
+staircase(10);
+staircase2(10);
+
+function staircase2(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log("#".repeat(i).padStart(n));
+    }
+}
